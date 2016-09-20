@@ -6,7 +6,7 @@ public class AddressBook {
 	
 	
 
-	public AddressBook(BuddyInfo buddy){
+	public AddressBook(){
 		
 		this.buddyList = new ArrayList<BuddyInfo>();		
 	}
@@ -22,9 +22,18 @@ public class AddressBook {
 	
 	public static void main(String[] args) {
 		
+		AddressBook ab = new AddressBook();
+		
+		BuddyInfo ryan;
+		ryan = new BuddyInfo();
+		ryan.setName("Ryan");
+		
+		ab.add(ryan);
 		System.out.println("This is the address Book: ");
 		
-	
+		System.out.println("Hello " + ryan.getName());
+		
+			
 	}
 	
 }
