@@ -22,11 +22,16 @@ public class BuddyInfo {
 		
 		
 		
+	}
+
+	public void Test(){
+		
+		//this is new test code for testing branches in GIT
+		
 		
 		
 		
 	}
-
 	public String getName() {
 		return name;
 	}
