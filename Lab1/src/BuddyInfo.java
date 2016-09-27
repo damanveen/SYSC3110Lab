@@ -28,7 +28,7 @@ public class BuddyInfo {
 		
 		//this is new test code for testing branches in GIT
 		
-		
+		//online edits
 		
 		
 	}
